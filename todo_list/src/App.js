@@ -39,7 +39,7 @@ useEffect(() => {
     document.getElementById('todoAdd').value = ""
   }
   
-  // Add the deleteToDo code here
+  // deleteToDo code 
   function deleteTodo(id) {
     let updatedTodos = [...todos].filter((todo) => todo.id !== id);
     setTodos(updatedTodos);
